@@ -1,7 +1,8 @@
-name: discovery-news-demo-crawl-date
+name: watson-discovery-demo
 instances: 1
 memory: 512M
-command: npm start
+command: node server.js
 env:
   DEMO_DEPLOY: 1
-
+services:
+   - Discovery-da
