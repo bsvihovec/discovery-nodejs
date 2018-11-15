@@ -5,4 +5,4 @@ command: node server.js
 env:
   DEMO_DEPLOY: 1
 services:
-   - Discovery-da
+   - Watson-Discovery-Demo-Service
